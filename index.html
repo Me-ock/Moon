@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sur la Lune</title>
+    <link rel="stylesheet" types="text/css" href="style.css" </head>
+
+    <body>
+        <header>
+            <a href="index.html" class="logo">Côme Villa</a>
+            <ul>
+                <li><a href="main.html">Details</a></li>
+                <li><a href="https://www.youtube.com/watch?v=WywmJZVh2B4#">Bande annonce</a></li>
+                <li><a href="#sec">Sources</a></li>
+            </ul>
+        </header>
+        <section>
+            <img src="img/stars.png" id="star">
+            <img src="img/moon (1).png" id="moon">
+            <img src="img/mountains_behind.png" id="mountains_behind">
+            <h2 id="text">APOLLO 11</h2>
+            <img src="img/Affiche.jpg" id="affiche">
+            <img src="img/mountains_behind.png" id="mountains_behind">
+            <a href="#sec" id="btn">Decouvrir</a>
+            <img src="img/mountains_front.png" id="mountains_front">
+        </section>
+        <div class="sec" id="sec">
+            <h2>SYNOPSIS</h2>
+            <p>Réalisé à partir d'images 70MM inédites récemment découvertes et plus de 11 000 heures d'enregistrements audio, APOLLO 11 plonge au cœur de la plus célèbre mission de la NASA et des premiers pas de l’Homme sur la Lune. <br><br> Ce film est
+                un voyage en immersion aux côtés des astronautes et du centre de contrôle de la mission et permet de vivre au plus près les inoubliables journées de 1969 dont on célèbre cette année le 50ème anniversaire.
+            </p>
+            <h3 class="sec" id="sources">Sources</h3>
+            <p>Allociné <br><br>youtube(Bandes annonce)</p>
+        </div>
+        <script>
+            let stars = document.getElementById('star')
+            let moon = document.getElementById('moon')
+            let mountains_behind = document.getElementById('mountains_behind')
+            let text = document.getElementById('text')
+            let btn = document.getElementById('btn')
+            let mountains_front = document.getElementById('mountains_front')
+
+            window.addEventListener('scroll', function() {
+                stars.style.left = value * 0.25 + 'px';
+            })
+        </script>
+    </body>
+
+</html>

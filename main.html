@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" types="text/css" href="style.css" </head>
+
+    <body>
+        <header>
+            <a href="index.html" class="logo">Côme Villa</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </header>
+        <section>
+            <img src="img/stars.png" id="star">
+            <img src="img/moon (1).png" id="moon">
+            <img src="img/mountains_behind.png" id="mountains_behind">
+            <h2 id="text">DETAILS</h2>
+            <img src="img/mountains_front.png" id="mountains_front">
+        </section>
+        <div class="sec" id="sec">
+            <h2>Informations générales</h2>
+            <p>Realisateur:Todd douglas Miller <br> <br>Acteurs:Neil Armstrong , Buzz aldrin,michael collins <br><br>Dates de sortie: Le 4 septembre 2019 <br><br> Genre: Documentair
+            </p>
+            <h3 class="sec" id="sources">Source</h3>
+            <p>Allociné <br><br>youtube(Bandes annonce)</p>
+        </div>
+        <script>
+            let stars = document.getElementById('star')
+            let moon = document.getElementById('moon')
+            let mountains_behind = document.getElementById('mountains_behind')
+            let text = document.getElementById('text')
+            let btn = document.getElementById('btn')
+            let mountains_front = document.getElementById('mountains_front')
+
+            window.addEventListener('scroll', function() {
+                stars.style.left = value * 0.25 + 'px';
+            })
+        </script>
+    </body>
+
+</html>
